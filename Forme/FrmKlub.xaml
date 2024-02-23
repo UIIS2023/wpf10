@@ -1,0 +1,21 @@
+﻿<Window x:Class="FudbalskiKlub.Forme.FrmKlub"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FudbalskiKlub.Forme"
+        mc:Ignorable="d"
+        Title="Dodaj / Izmeni Klub" Height="280" Width="300">
+    <Grid>
+        <Label Content="Naziv:" HorizontalAlignment="Left" Margin="40,30,0,0" VerticalAlignment="Top"/>
+        <Label Content="Liga:" HorizontalAlignment="Left" Margin="40,60,0,0" VerticalAlignment="Top"/>
+        <Label Content="Godina Osnivanja:" HorizontalAlignment="Left" Margin="40,90,0,0" VerticalAlignment="Top"/>
+        <Label Content="Adresa:" HorizontalAlignment="Left" Margin="40,120,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNaziv" HorizontalAlignment="Left" Margin="150,35,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtLiga" HorizontalAlignment="Left" Margin="150,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <DatePicker x:Name="GodinaOsnivanja" HorizontalAlignment="Left" Margin="150,90,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAdresa" HorizontalAlignment="Left" Margin="150,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnSacuvaj" Content="Sacuvaj" HorizontalAlignment="Left" Margin="60,200,0,0" VerticalAlignment="Top" Click="btnSacuvaj_Click"/>
+        <Button x:Name="btnOtkazi" Content="Otkazi" HorizontalAlignment="Left" Margin="200,200,0,0" VerticalAlignment="Top" Click="btnOtkazi_Click"/>
+    </Grid>
+</Window>

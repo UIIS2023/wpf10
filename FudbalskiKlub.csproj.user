@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Forme\FrmClan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\FrmIgrac.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\FrmKarta.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\FrmKlub.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\FrmStadion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\FrmTrener.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\FrmTurnir.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\FrmUtakmica.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Forme\FrmClan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\FrmIgrac.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\FrmKarta.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\FrmKlub.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\FrmStadion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\FrmTrener.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\FrmTurnir.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\FrmUtakmica.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

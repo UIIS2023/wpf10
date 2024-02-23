@@ -1,0 +1,25 @@
+﻿<Window x:Class="FudbalskiKlub.Forme.FrmIgrac"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FudbalskiKlub.Forme"
+        mc:Ignorable="d"
+        Title="Dodaj / Izmeni Igraca" Height="300" Width="300">
+    <Grid>
+        <Label Content="Ime:" HorizontalAlignment="Left" Margin="40,30,0,0" VerticalAlignment="Top"/>
+        <Label Content="Prezime:" HorizontalAlignment="Left" Margin="40,60,0,0" VerticalAlignment="Top"/>
+        <Label Content="Godine:" HorizontalAlignment="Left" Margin="40,90,0,0" VerticalAlignment="Top"/>
+        <Label Content="Karijera:" HorizontalAlignment="Left" Margin="40,120,0,0" VerticalAlignment="Top"/>
+        <Label Content="Pozicija:" HorizontalAlignment="Left" Margin="40,150,0,0" VerticalAlignment="Top"/>
+        <Label Content="Klub:" HorizontalAlignment="Left" Margin="40,180,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtIme" HorizontalAlignment="Left" Margin="150,35,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtPrezime" HorizontalAlignment="Left" Margin="150,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtGodine" HorizontalAlignment="Left" Margin="150,95,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtKarijera" HorizontalAlignment="Left" Margin="150,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtPozicija" HorizontalAlignment="Left" Margin="150,155,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cbKlub" HorizontalAlignment="Left" Margin="150,180,0,0" VerticalAlignment="Top" Width="120" DisplayMemberPath="Naziv" SelectedValuePath="KlubID"/>
+        <Button x:Name="btnSacuvaj" Content="Sacuvaj" HorizontalAlignment="Left" Margin="60,230,0,0" VerticalAlignment="Top" Click="btnSacuvaj_Click"/>
+        <Button x:Name="btnOtkazi" Content="Otkazi" HorizontalAlignment="Left" Margin="200,230,0,0" VerticalAlignment="Top" Click="btnOtkazi_Click"/>
+    </Grid>
+</Window>
